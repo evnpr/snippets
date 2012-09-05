@@ -29,7 +29,7 @@ map <C-h> :tabp<CR>
 map <C-k> :bp<CR>
 map <C-j> :bn<CR>
 
-map <C-f> :tabe **/
+map <C-f> :e **/
 
 
 map <F2> <C-w><C-w> <CR>
@@ -38,3 +38,9 @@ map <F2> <C-w><C-w> <CR>
 
 :filetype plugin on
 
+
+:set mouse=a
+
+:set nobackup
+:set nowritebackup
+:set noswapfile
