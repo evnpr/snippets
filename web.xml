@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+ Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+   version="2.5"> 
+
+    <description>
+      Servlet
+    </description>
+    <display-name>Servlet Examples</display-name>
+
+
+    <!-- Define servlets  -->
+
+    <servlet>
+      <servlet-name>TestServlet</servlet-name>
+      <servlet-class>TestServlet</servlet-class>
+    </servlet>
+<servlet>
+      <servlet-name>PHelloWorld</servlet-name>
+      <servlet-class>PHelloWorld</servlet-class>
+    </servlet>
+
+    <servlet>
+      <servlet-name>QueryServlet</servlet-name>
+      <servlet-class>QueryServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+      <servlet-name>mySQLQueryServlet</servlet-name>
+      <servlet-class>mySQLQueryServlet</servlet-class>
+    </servlet>
+
+
+    <servlet>
+      <servlet-name>halo</servlet-name>
+      <servlet-class>Helo</servlet-class>
+    </servlet>
+
+    <servlet>
+      <servlet-name>UploadServlet</servlet-name>
+      <servlet-class>UploadServlet</servlet-class>
+      </servlet>
+
+    <servlet-mapping>
+        <servlet-name>TestServlet</servlet-name>
+        <url-pattern>/servlet/TestServlet</url-pattern>
+    </servlet-mapping>
+<servlet-mapping>
+        <servlet-name>PHelloWorld</servlet-name>
+        <url-pattern>/servlet/PHelloWorld</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>QueryServlet</servlet-name>
+        <url-pattern>/servlet/QueryServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>mySQLQueryServlet</servlet-name>
+        <url-pattern>/servlet/mySQLQueryServlet</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>halo</servlet-name>
+        <url-pattern>/myhalo</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+       <servlet-name>UploadServlet</servlet-name>
+       <url-pattern>/UploadServlet</url-pattern>
+    </servlet-mapping>
+
+    <context-param> 
+        <description>Location to store uploaded file</description> 
+        <param-name>file-upload</param-name> 
+            <param-value>
+                    /var/lib/tomcat6/webapps/myapp/uploaded/
+        </param-value> 
+    </context-param>
+
+
+
+</web-app>
