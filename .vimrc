@@ -29,9 +29,10 @@ map <C-h> :tabp<CR>
 map <C-k> :bp<CR>
 map <C-j> :bn<CR>
 
-map <C-f> :e **/
+map <C-o> :e **/
 
 
+map <C-f> /
 map <F2> <C-w><C-w> <CR>
 
 :source ~/.vim/plugin/matchit.vim
@@ -39,7 +40,7 @@ map <F2> <C-w><C-w> <CR>
 :filetype plugin on
 
 
-:set mouse=a
+":set mouse=a
 
 :set nobackup
 :set nowritebackup
