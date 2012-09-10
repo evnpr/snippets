@@ -40,7 +40,7 @@ map <F2> <C-w><C-w> <CR>
 :filetype plugin on
 
 
-":set mouse=a
+" :set mouse=a
 
 :set nobackup
 :set nowritebackup
