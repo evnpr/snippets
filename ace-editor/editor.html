@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Editor</title>
+  <style type="text/css" media="screen">
+    body {
+         
+    }
+    
+    #editor { 
+        margin: 0;
+     
+		width: 500px;
+		height: 300px;
+    }
+  </style>
+</head>
+<body>
+
+<pre id="editor">function foo(items) {
+    var i;
+    for (i = 0; i &lt; items.length; i++) {
+        alert("Ace Rocks " + items[i]);
+    }
+}</pre>
+    
+	
+	<button onClick="showcontent()" style="margin-top: 300px;">fafa</button>
+	
+<script src="src-noconflict/ace.js" type="text/javascript" charset="utf-8"></script>
+<script>
+    var editor = ace.edit("editor");
+    editor.setTheme("ace/theme/twilight");
+    editor.getSession().setMode("ace/mode/javascript");
+	var code = editor.getSession().getValue();
+		function showcontent(){
+			
+			alert(code);
+		}
+</script>
+
+
+
+
+</body>
+</html>
