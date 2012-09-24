@@ -30,6 +30,7 @@ map <C-k> :bp<CR>
 map <C-j> :bn<CR>
 
 map <C-o> :e **/
+map <C-t> :vsp **/
 
 
 map <C-f> /

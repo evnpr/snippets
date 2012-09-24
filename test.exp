@@ -1,0 +1,10 @@
+#!/usr/bin/expect -r
+# set variables
+set password MyPassword
+spawn heroku login 
+# Look for password prompt
+expect "Email:"
+send -- "$password\r"
+expect "Password (typing will be hidden):"
+send -- "$password\r"
+expect eof
