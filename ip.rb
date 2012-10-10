@@ -2,7 +2,7 @@ tmd = 0
 while 1
   t = Time.now
   tm = t.sec
-  if tm%10 == 0
+  if tm%30 == 0
   	tmo = tm
 	if tmd == 0
 		puts Time.now
