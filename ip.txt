@@ -27,6 +27,7 @@ Ethernet adapter Local Area Connection:
    IPv4 Address. . . . . . . . . . . : 172.20.24.223
    Subnet Mask . . . . . . . . . . . : 255.255.252.0
    Default Gateway . . . . . . . . . : fe80::71e2:a20a:5c08:eb25%11
+                                       fe80::c03f:7b4:667d:6dfe%11
                                        172.20.27.254
 
 Ethernet adapter VirtualBox Host-Only Network:
