@@ -22,13 +22,8 @@ Wireless LAN adapter Wireless Network Connection:
 
 Ethernet adapter Local Area Connection:
 
+   Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : ntu.edu.sg
-   Link-local IPv6 Address . . . . . : fe80::8d33:228a:f0e8:d8fa%11
-   IPv4 Address. . . . . . . . . . . : 172.20.24.223
-   Subnet Mask . . . . . . . . . . . : 255.255.252.0
-   Default Gateway . . . . . . . . . : fe80::71e2:a20a:5c08:eb25%11
-                                       fe80::c03f:7b4:667d:6dfe%11
-                                       172.20.27.254
 
 Ethernet adapter VirtualBox Host-Only Network:
 
@@ -530,10 +525,8 @@ Tunnel adapter Local Area Connection* 108:
 
 Tunnel adapter Local Area Connection* 109:
 
+   Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
-   IPv6 Address. . . . . . . . . . . : 2001:0:9d38:6ab8:3491:297a:53eb:e720
-   Link-local IPv6 Address . . . . . : fe80::3491:297a:53eb:e720%125
-   Default Gateway . . . . . . . . . : ::
 
 Tunnel adapter Local Area Connection* 112:
 
@@ -648,7 +641,7 @@ Tunnel adapter Local Area Connection* 139:
 Tunnel adapter isatap.ntu.edu.sg:
 
    Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : ntu.edu.sg
+   Connection-specific DNS Suffix  . : 
 
 Tunnel adapter Local Area Connection* 133:
 
