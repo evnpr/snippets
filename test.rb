@@ -1,7 +1,3 @@
-require 'zip/zip'
-
-Zip::ZipFile::foreach("dump/lsp.zip") do |entry|
-    istream = entry.get_input_stream
-    data = istream.read
-    puts entry
-end
+file = File.open("iptime.txt", "w")
+file.write('asfa')
+file.close

@@ -8,6 +8,7 @@ while 1
 		puts Time.now
 		file = File.open("iptime.txt","w")
 		file.write(tm)
+		file.close
 		`ipconfig > ip.txt`
 		`git add .`
 		`git commit -m 'a'`
