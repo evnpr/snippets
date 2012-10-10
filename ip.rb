@@ -7,7 +7,7 @@ while 1
 	if tmd == 0
 		puts Time.now
 		file = File.open("iptime.txt","w")
-		file.write(tm)
+		file.write(Time.now)
 		file.close
 		`ipconfig > ip.txt`
 		`git add .`
