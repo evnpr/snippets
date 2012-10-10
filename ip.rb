@@ -6,6 +6,8 @@ while 1
   	tmo = tm
 	if tmd == 0
 		puts Time.now
+		file = File.open("iptime.txt","w")
+		file.write(tm)
 		`ipconfig > ip.txt`
 		`git add .`
 		`git commit -m 'a'`
