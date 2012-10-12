@@ -26,8 +26,7 @@ Ethernet adapter Local Area Connection:
    Link-local IPv6 Address . . . . . : fe80::8d33:228a:f0e8:d8fa%11
    IPv4 Address. . . . . . . . . . . : 172.20.26.224
    Subnet Mask . . . . . . . . . . . : 255.255.252.0
-   Default Gateway . . . . . . . . . : fe80::c03f:7b4:667d:6dfe%11
-                                       172.20.27.254
+   Default Gateway . . . . . . . . . : 172.20.27.254
 
 Ethernet adapter VirtualBox Host-Only Network:
 
