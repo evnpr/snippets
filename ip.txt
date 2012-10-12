@@ -4,8 +4,11 @@ Windows IP Configuration
 
 Wireless LAN adapter Wireless Network Connection 2:
 
-   Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::4d7c:2dc9:e469:ce78%17
+   IPv4 Address. . . . . . . . . . . : 192.168.137.1
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 
 
 Ethernet adapter Bluetooth Network Connection:
 
@@ -669,6 +672,11 @@ Tunnel adapter Local Area Connection* 137:
    Connection-specific DNS Suffix  . : 
 
 Tunnel adapter isatap.{91154A3E-0FB8-4B0F-9503-E23E715D7BE5}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 140:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
