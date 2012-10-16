@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/etc/apache2/sites-available'
+let g:netrw_dirhist_2='/etc/apache2/sites-enabled'
+let g:netrw_dirhist_3='/etc/apache2/sites-available'
+let g:netrw_dirhist_4='/var/www/ls/upload/onlinekartatoko'
+let g:netrw_dirhist_5='/var/www/ls/upload/lsphp'
+let g:netrw_dirhist_6='/var/www/ls/upload/my'
+let g:netrw_dirhist_7='/home/evan/.vim'
+let g:netrw_dirhist_8='/home/gitolite/repositories'
+let g:netrw_dirhist_9='/home/gitolite/.ssh'

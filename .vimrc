@@ -22,6 +22,8 @@ set shiftwidth=4
 set softtabstop=4
 
 nnoremap <F5> :buffers<CR>
+nnoremap <F8> :set nu<CR>
+nnoremap <F9> :set cursorline cursorcolumn<CR>
 
 
 map <C-l> :tabn<CR>
