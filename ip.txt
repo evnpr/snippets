@@ -24,10 +24,9 @@ Ethernet adapter Local Area Connection:
 
    Connection-specific DNS Suffix  . : ntu.edu.sg
    Link-local IPv6 Address . . . . . : fe80::8d33:228a:f0e8:d8fa%11
-   IPv4 Address. . . . . . . . . . . : 172.20.26.224
+   IPv4 Address. . . . . . . . . . . : 172.20.25.67
    Subnet Mask . . . . . . . . . . . : 255.255.252.0
-   Default Gateway . . . . . . . . . : fe80::71e2:a20a:5c08:eb25%11
-                                       172.20.27.254
+   Default Gateway . . . . . . . . . : 172.20.27.254
 
 Ethernet adapter VirtualBox Host-Only Network:
 
@@ -642,10 +641,10 @@ Tunnel adapter Local Area Connection* 139:
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
 
-Tunnel adapter isatap.ntu.edu.sg:
+Tunnel adapter Local Area Connection* 147:
 
    Media State . . . . . . . . . . . : Media disconnected
-   Connection-specific DNS Suffix  . : ntu.edu.sg
+   Connection-specific DNS Suffix  . : 
 
 Tunnel adapter Local Area Connection* 133:
 
@@ -662,7 +661,7 @@ Tunnel adapter Local Area Connection* 135:
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
 
-Tunnel adapter isatap.{91154A3E-0FB8-4B0F-9503-E23E715D7BE5}:
+Tunnel adapter Local Area Connection* 142:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
@@ -678,6 +677,61 @@ Tunnel adapter Local Area Connection* 141:
    Connection-specific DNS Suffix  . : 
 
 Tunnel adapter Local Area Connection* 140:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 144:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 146:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter isatap.ntu.edu.sg:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : ntu.edu.sg
+
+Tunnel adapter Local Area Connection* 143:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 145:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 149:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter isatap.{91154A3E-0FB8-4B0F-9503-E23E715D7BE5}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 148:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 150:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 152:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 151:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
