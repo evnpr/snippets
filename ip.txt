@@ -26,7 +26,7 @@ Ethernet adapter Local Area Connection:
    Link-local IPv6 Address . . . . . : fe80::8d33:228a:f0e8:d8fa%11
    IPv4 Address. . . . . . . . . . . : 172.20.25.67
    Subnet Mask . . . . . . . . . . . : 255.255.252.0
-   Default Gateway . . . . . . . . . : fe80::71e2:a20a:5c08:eb25%11
+   Default Gateway . . . . . . . . . : fe80::ece6:734b:c4a3:4718%11
                                        172.20.27.254
 
 Ethernet adapter VirtualBox Host-Only Network:
@@ -733,6 +733,16 @@ Tunnel adapter Local Area Connection* 152:
    Connection-specific DNS Suffix  . : 
 
 Tunnel adapter Local Area Connection* 151:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 153:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter Local Area Connection* 154:
 
    Media State . . . . . . . . . . . : Media disconnected
    Connection-specific DNS Suffix  . : 
